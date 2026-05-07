@@ -14,7 +14,9 @@
     "pixi.js": "^8.0.0",
     "colyseus.js": "^0.16.0",
     "@colyseus/schema": "^4.0.0",
-    "reflect-metadata": "^0.2.0"
+    "reflect-metadata": "^0.2.0",
+    "better-auth": "^1.2.7",
+    "@arena/db": "workspace:*"
   },
   "devDependencies": {
     "@types/react": "^19",
