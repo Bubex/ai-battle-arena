@@ -1,0 +1,12 @@
+{
+  "name": "ai-battle-arena",
+  "private": true,
+  "scripts": {
+    "dev": "pnpm --filter game-server dev",
+    "test": "pnpm --filter game-server test",
+    "build": "pnpm --filter game-server build"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": ["isolated-vm", "esbuild", "msgpackr-extract"]
+  }
+}

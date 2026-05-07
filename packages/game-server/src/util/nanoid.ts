@@ -1,0 +1,5 @@
+import { randomBytes } from 'node:crypto';
+
+export function nanoid(size = 21): string {
+  return randomBytes(size).toString('base64url').slice(0, size);
+}

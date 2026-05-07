@@ -1,0 +1,30 @@
+{
+  "name": "game-server",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "NODE_OPTIONS=--no-node-snapshot tsx watch src/main.ts",
+    "start": "NODE_OPTIONS=--no-node-snapshot node dist/main.js",
+    "build": "tsc",
+    "test": "NODE_OPTIONS=--no-node-snapshot vitest run"
+  },
+  "dependencies": {
+    "@colyseus/core": "^0.17.0",
+    "@colyseus/schema": "^4.0.0",
+    "@colyseus/ws-transport": "^0.17.0",
+    "acorn": "^8.14.0",
+    "express": "^5.1.0",
+    "isolated-vm": "^6.1.0",
+    "pino": "^9.6.0",
+    "pino-pretty": "^13.0.0",
+    "reflect-metadata": "^0.2.2"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.1",
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.3",
+    "vitest": "^3.1.3"
+  }
+}

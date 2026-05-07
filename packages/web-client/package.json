@@ -1,0 +1,25 @@
+{
+  "name": "web-client",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "^15",
+    "react": "^19",
+    "react-dom": "^19",
+    "pixi.js": "^8.0.0",
+    "colyseus.js": "^0.16.0",
+    "@colyseus/schema": "^4.0.0",
+    "reflect-metadata": "^0.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@types/node": "^22",
+    "typescript": "^5"
+  }
+}
